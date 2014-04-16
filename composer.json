@@ -1,0 +1,19 @@
+{
+    "name": "cysha/pxcms-pages",
+    "type": "pxcms-module",
+    "description": "Pages Module for Phoenix CMS",
+    "license": "MIT",
+    "authors": [
+        { "name": "xLink", "email": "xLink@cybershade.org" }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer/installers"               : "dev-master",
+
+        "maxhoffmann/parsedown-laravel"     : "dev-master",
+        "venturecraft/revisionable"         : "1.*",
+    },
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/cysha/installers" }
+    ]
+}
