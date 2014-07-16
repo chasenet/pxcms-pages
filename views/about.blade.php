@@ -4,7 +4,6 @@
 
 <div class="row">
     <div class="col-md-12">
-        <p>This is some information about << website >>...</p>
-        **this bit will be in italics**
+        <p>This is some information about {{ Config::get('app.site-name') }}...</p>
     </div>
 </div>

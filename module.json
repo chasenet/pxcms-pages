@@ -1,5 +1,5 @@
 {
     "enabled": true,
     "provider": "Cysha\\Modules\\Pages\\ServiceProvider",
-    "order": 0
+    "order": 5
 }
